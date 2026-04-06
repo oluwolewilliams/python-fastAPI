@@ -1,6 +1,3 @@
-from fastapi import FastAPI
-from enum import Enum
-from API_key import app as api_key_app
 
 app = FastAPI()
 from datetime import datetime, timedelta, timezone
